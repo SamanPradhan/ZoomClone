@@ -18,4 +18,5 @@ const addVideoStream = (video, stream) => {
     video.play();
   });
   videoGrid.append(video);
+  console.log("hello world");
 };
